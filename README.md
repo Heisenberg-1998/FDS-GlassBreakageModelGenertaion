@@ -14,6 +14,7 @@ Before you strat your own trail, please ensure the your folder contain a `window
 ```
 
 ![image](https://github.com/user-attachments/assets/9220cd60-00ff-4fd3-abc3-38e85dc052cf)
+
 `main.py` privided three examples, three window instances are initialized according to the `window.no`, `x_min`, `y_min`, `z_min`, `x_max`, `y_max`, `z_max`, `thickness` and `GridSize`.
 ```python
     win_no1 = Windows(no=1, 
