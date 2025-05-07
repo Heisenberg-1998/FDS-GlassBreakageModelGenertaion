@@ -1,4 +1,4 @@
-# Glass Breakage Model - Automatic FDS Code Generator
+#  Automatic FDS Code Generator for Glass Breakage Model
 This is a automotive FDS code generate programme which can help you to generate a ‘criterion-controlled’ glass breakage model proposed from Chu et al (2024)
 
 In the paper 'Integrating glass breakage models into CFD simulation to investigate realistic compartment fire behaviour' (Chu et al., 2024), a ‘criterion-controlled’ glass breakage model was defined as follow:
