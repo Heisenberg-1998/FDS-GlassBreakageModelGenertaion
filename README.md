@@ -10,7 +10,7 @@ Before you strat your own trail, please ensure the your folder contain a `window
 
 ----DEVC----
 
-----CTRL---
+----CTRL----
 ```
 
 ![image](https://github.com/user-attachments/assets/9220cd60-00ff-4fd3-abc3-38e85dc052cf)
@@ -69,7 +69,6 @@ After runing `main.py`, you can find FDS code in `window.txt`, then you can copy
 --Window.no1--
 ...
 
----DEVC---
 ----DEVC----
 --DEVC.Window.no3--
 &DEVC ID='DEVC-WD3_0_0', QUANTITY='TEMPERATURE', XYZ=-0.05,-0.15,1.25, ORIENTATION=0.0,-1.0,0.0, SETPOINT=150/
@@ -79,7 +78,7 @@ After runing `main.py`, you can find FDS code in `window.txt`, then you can copy
 ...
 --DEVC.Window.no1--
 ...
----CTRL---
+
 ----CTRL----
 --CTRL.Window.no3--
 &CTRL ID='ControlWindowWD3_0_0', FUNCTION_TYPE='ALL', LATCH=.FALSE., INITIAL_STATE=.TRUE., INPUT_ID='latch3_0_0'/
