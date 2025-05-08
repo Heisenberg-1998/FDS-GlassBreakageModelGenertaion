@@ -96,7 +96,6 @@ The FDS result is shown as follow:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f7fd08e8-0082-4bc5-88da-59205fe83937" width="400" />
 </p>
-![image](https://github.com/user-attachments/assets/f7fd08e8-0082-4bc5-88da-59205fe83937)
 
 
 # Reference
