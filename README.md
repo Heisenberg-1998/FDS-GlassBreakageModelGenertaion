@@ -4,6 +4,7 @@ This is a automotive FDS code generate programme which can help you to generate 
 In the paper ***Integrating glass breakage models into CFD simulation to investigate realistic compartment fire behaviour*** (Chu et al., 2024), a ‘criterion-controlled’ glass breakage model was defined as follow:
 ![image](https://github.com/user-attachments/assets/16c3099d-121c-4bbf-b0e8-1d7cce284fd1)
 
+# How to use the Code Generator
 Before strating your own trail, please ensure the folder contain a `window.txt` file, which has following text format:
 ```txt
 ----Windows----
@@ -40,6 +41,8 @@ Before strating your own trail, please ensure the folder contain a `window.txt` 
 ```
 
 Then use function `generate_OBST_lines`, `generate_DEVC_lines`, `generate_CTRL_lines` to generate OBST, DEVC and CTRL code:
+
+***Note. In `generate_DEVC_lines(window: Windows, offset:float, offset_orientation:str, setpoint:int)`, `offset` is the distance betwwen DEVC (thermocouple of heat flux meter) and windows cells***
 ```
     obst_line = Edit_txt_file.generate_OBST_lines(win_obj=win_no1)
     devc_line = Edit_txt_file.generate_DEVC_lines(window=win_no1, offset=-0.1, offset_orientation='y', setpoint=150)
