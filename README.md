@@ -97,6 +97,8 @@ The FDS result is shown as follow:
   <img src="https://github.com/user-attachments/assets/f7fd08e8-0082-4bc5-88da-59205fe83937" width="400" />
 </p>
 
+# What to do next...
+The breakage is not only controlled by the temperture but also by the heat flux, add heat flux controlled function in next stage...
 
 # Reference
 Chu, T., Jiang, L., Zhu, G., Usmani, A., 2024. Integrating glass breakage models into CFD simulation to investigate realistic compartment fire behaviour. Journal of Building Engineering 82, 108314. https://doi.org/10.1016/j.jobe.2023.108314
