@@ -13,8 +13,9 @@ Before strating your own trail, please ensure the folder contain a `window.txt` 
 
 ----CTRL----
 ```
-
-![image](https://github.com/user-attachments/assets/9220cd60-00ff-4fd3-abc3-38e85dc052cf)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9220cd60-00ff-4fd3-abc3-38e85dc052cf" width="400" />
+</p>
 
 `main.py` privided three examples, three window instances are initialized according to the `window.no`, `x_min`, `y_min`, `z_min`, `x_max`, `y_max`, `z_max`, `thickness` and `GridSize`.
 ```python
@@ -91,6 +92,12 @@ After runing `main.py`, you can find FDS code in `window.txt`, then you can copy
 &CTRL ID='ControlWindowWD3_0_1', FUNCTION_TYPE='ALL', LATCH=.FALSE., INITIAL_STATE=.TRUE., INPUT_ID='latch3_0_1'/
 &CTRL ID='latch3_0_1', FUNCTION_TYPE='ALL', LATCH=.TRUE., INPUT_ID='DEVC-WD3_0_1'/
 ```
+The FDS result is shown as follow:
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f7fd08e8-0082-4bc5-88da-59205fe83937" width="400" />
+</p>
+![image](https://github.com/user-attachments/assets/f7fd08e8-0082-4bc5-88da-59205fe83937)
+
 
 # Reference
 Chu, T., Jiang, L., Zhu, G., Usmani, A., 2024. Integrating glass breakage models into CFD simulation to investigate realistic compartment fire behaviour. Journal of Building Engineering 82, 108314. https://doi.org/10.1016/j.jobe.2023.108314
