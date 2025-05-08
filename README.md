@@ -89,3 +89,6 @@ After runing `main.py`, you can find FDS code in `window.txt`, then you can copy
 &CTRL ID='ControlWindowWD3_0_1', FUNCTION_TYPE='ALL', LATCH=.FALSE., INITIAL_STATE=.TRUE., INPUT_ID='latch3_0_1'/
 &CTRL ID='latch3_0_1', FUNCTION_TYPE='ALL', LATCH=.TRUE., INPUT_ID='DEVC-WD3_0_1'/
 ```
+
+# Reference
+Chu, T., Jiang, L., Zhu, G., Usmani, A., 2024. Integrating glass breakage models into CFD simulation to investigate realistic compartment fire behaviour. Journal of Building Engineering 82, 108314. https://doi.org/10.1016/j.jobe.2023.108314
