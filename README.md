@@ -42,7 +42,8 @@ Before strating your own trail, please ensure the folder contain a `window.txt` 
 
 Then use function `generate_OBST_lines`, `generate_DEVC_lines`, `generate_CTRL_lines` to generate OBST, DEVC and CTRL code:
 
-***Note. In `generate_DEVC_lines(window: Windows, offset:float, offset_orientation:str, setpoint:int)`, `offset` is the distance betwwen DEVC (thermocouple of heat flux meter) and windows cells***
+***Note 1. In `generate_DEVC_lines(window: Windows, offset:float, offset_orientation:str, setpoint:int)`, `offset` is the distance betwwen DEVC (thermocouple of heat flux meter) and windows cells***
+***Note 2. In `generate_OBST_lines(win_obj:Windows, surf_id: str = 'Glass')`, `surf_id` is the glass's surface id FDS, you should modify the text `Glass` according to your own FDS model***
 ```
     obst_line = Edit_txt_file.generate_OBST_lines(win_obj=win_no1)
     devc_line = Edit_txt_file.generate_DEVC_lines(window=win_no1, offset=-0.1, offset_orientation='y', setpoint=150)
